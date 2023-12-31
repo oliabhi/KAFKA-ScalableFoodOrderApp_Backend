@@ -1,3 +1,9 @@
+'''
+Transactions.py : Routes details about confirmed orders back! 
+Info : customer_id,customer_email,total_cost
+'''
+
+
 import json
 
 from kafka import KafkaConsumer

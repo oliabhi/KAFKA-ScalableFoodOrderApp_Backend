@@ -1,3 +1,8 @@
+'''
+Order_backend.py : Routes order details in realtime to the consumer
+Info : order_id,user_id,total_order_value,items
+'''
+
 import json
 import time
 
