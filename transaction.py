@@ -35,3 +35,9 @@ while True:
         }
         print("Successful transaction..")
         producer.send(ORDER_CONFIRMED_KAFKA_TOPIC, json.dumps(data).encode("utf-8"))
+
+
+'''
+Will be extending routing the transaction routed as confirmed orders to GCP bigquery
+using kafka bigquery connector
+'''
